@@ -71,8 +71,6 @@ int			eating(t_thread *thread);
 void		sleep_and_think(t_thread *thread);
 int			fill_and_launch(t_table *table, t_thread **thread, int i);
 void		*dead_philo(long time, t_table *table, int i);
-//void		change_forks(t_thread *thread, int *first, int *second);
-//int			check_finished(t_table *table);
 int			check_timing(t_table *table, int i, long start_time);
 void		check_eaten(t_table *table, int i);
 int			check_pfinish(t_thread *thread, int first, int second);
