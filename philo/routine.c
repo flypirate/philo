@@ -6,7 +6,7 @@
 /*   By: albegar2 <albegar2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/07 11:54:42 by albegar2          #+#    #+#             */
-/*   Updated: 2026/03/11 12:44:32 by albegar2         ###   ########.fr       */
+/*   Updated: 2026/03/13 17:16:09 by albegar2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ void	sleep_and_think(t_thread *thread)
 		csleep = thread->table_data->teat * 2 - thread->table_data->tsleep;
 		if (csleep < 0)
 			csleep = 0;
-		custom_sleep((csleep * 0.50), thread);
+		custom_sleep((csleep * 0.30), thread);
 	}
 }
 
